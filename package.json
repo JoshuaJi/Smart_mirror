@@ -21,8 +21,13 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "dotenv": "^4.0.0",
     "electron-prebuilt-compile": "^1.6.11",
+    "express": "^4.15.4",
+    "express-browserify": "^1.0.2",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "watson-developer-cloud": "^2.39.0",
+    "watson-speech": "^0.33.1"
   }
 }

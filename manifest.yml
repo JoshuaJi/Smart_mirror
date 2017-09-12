@@ -1,0 +1,15 @@
+---
+declared-services:
+  magicMirror:
+    label: speech_to_text
+    plan: standard
+applications:
+- name: magicMirror_joshua_test1
+  command: node server.js
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+  - magicMirror
+  env:
+   NPM_CONFIG_PRODUCTION: false
