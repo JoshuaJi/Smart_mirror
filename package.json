@@ -17,7 +17,8 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.6.2"
+    "electron": "~1.6.2",
+    "electron-rebuild": "^1.6.0"
   },
   "dependencies": {
     "axios": "^0.16.2",
@@ -25,8 +26,10 @@
     "electron-prebuilt-compile": "^1.6.11",
     "express": "^4.15.4",
     "express-browserify": "^1.0.2",
+    "node-record-lpcm16": "^0.3.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "snowboy": "^1.2.0",
     "watson-developer-cloud": "^2.39.0",
     "watson-speech": "^0.33.1"
   }

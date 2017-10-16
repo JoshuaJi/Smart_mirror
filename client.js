@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 
 // import { OpenWeatherMap } from 'react-weather';
 
-import Greeting from "./greeting.js";
+import Voice_service from "./voice-service.js";
 import Clock from "./clock.js";
 import Weather from "./weather.js"
 import styles from "./layout.css.js";
@@ -16,7 +16,7 @@ class Layout extends React.Component {
                  <Weather city="Toronto" country="ca" appid="450d5e8ca30dd9275d32cfdf424fa7c8" units='metric'/> 
                 {/* <OpenWeatherMap city="Montreal" country="ca" appid="450d5e8ca30dd9275d32cfdf424fa7c8" /> */}
                 <Clock/>
-                <Greeting/>
+                <Voice_service/>
             </div>
         );
     }
