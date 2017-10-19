@@ -18,6 +18,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "~1.6.2",
+    "electron-packager": "^9.1.0",
+    "electron-react-devtools": "^0.4.0",
     "electron-rebuild": "^1.6.0"
   },
   "dependencies": {
@@ -26,9 +28,13 @@
     "electron-prebuilt-compile": "^1.6.11",
     "express": "^4.15.4",
     "express-browserify": "^1.0.2",
+    "google-map-react": "^0.24.0",
+    "mapbox-gl": "^0.41.0",
     "node-record-lpcm16": "^0.3.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-mapbox-gl": "^2.7.0",
+    "react-router": "^4.2.0",
     "snowboy": "^1.2.0",
     "watson-developer-cloud": "^2.39.0",
     "watson-speech": "^0.33.1"

@@ -274,7 +274,7 @@ th {
 }
 @font-face {
     font-family: "HelveticaNeue-UltraLight";
-    src: url("HelveticaNeue-UltraLight.ttf");
+    src: url("resources/HelveticaNeue-UltraLight.ttf");
     /* EOT file for IE */
 }
 .glyphicon {

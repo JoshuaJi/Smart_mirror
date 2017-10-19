@@ -33,11 +33,10 @@ export default class Clock extends React.Component {
         const current_month = months[date.getMonth()];
 
         return (
-            <div style={{position: 'absolute', right: '40px', top: '20px', textAlign: 'right', color: 'white'}}>
+            <div className='top-right'>
                 <h1>{ current_time }</h1>
                 <p>{ current_day }</p>
                 <p>{ current_month } {date.getDate()}</p>
-
             </div>
         );
     }
